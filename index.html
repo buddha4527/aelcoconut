@@ -1,259 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <title>AEL Virgin Coconut Oil – Pure. Natural. Healthy.</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AEL Virgin Coconut Oil | 100% Pure & Natural</title>
-  
-  <style>
-    /* ========================================
-      CSS Variables & Global Styles
-      ========================================
-    */
-    :root {
-      --primary-bg: #f6fff4;
-      --header-footer-bg: #e4f1dc;
-      --highlight-bg: #dff0c6;
-      --contact-bg: #eefae7;
-      --button-bg: #4CAF50;
-      --button-hover-bg: #45a049;
-      --text-color: #333;
-      --font-main: 'Arial', sans-serif;
-    }
-
-    body {
-      font-family: var(--font-main);
-      margin: 0;
-      padding: 0;
-      background-color: var(--primary-bg);
-      color: var(--text-color);
-      line-height: 1.6;
-    }
-    
-    img {
-      max-width: 100%;
-      height: auto;
-      display: block;
-    }
-
-    /* ========================================
-      Page Structure & Layout
-      ========================================
-    */
-    .header {
-      background-color: var(--header-footer-bg);
-      padding: 20px;
-      text-align: center;
-    }
-
-    .header__logo {
-      max-width: 120px;
-      margin: 0 auto 15px;
-    }
-
-    .header h1 {
-      margin: 0;
-    }
-
-    .header p {
-      margin: 5px 0 0;
-      font-style: italic;
-    }
-    
-    .hero {
-      background-image: url('https://via.placeholder.com/1200x300.png/e4f1dc/333333?text=AEL+Coconut+Groves'); /* Placeholder image */
-      background-size: cover;
-      background-position: center;
-      height: 300px;
-    }
-
-    .main-content {
-      padding: 20px;
-      max-width: 800px;
-      margin: 0 auto;
-    }
-    
-    .product-section {
-      text-align: center;
-      margin-bottom: 40px;
-    }
-
-    .product-image {
-      max-width: 400px;
-      margin: 20px auto;
-      border-radius: 10px;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-    }
-    
-    .highlight-card {
-      background: var(--highlight-bg);
-      padding: 20px;
-      margin: 30px auto;
-      border-radius: 10px;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.05);
-    }
-
-    .benefits-list {
-      padding-left: 20px;
-      list-style-type: '🥥 ';
-    }
-    
-    .process-image {
-      border-radius: 10px;
-      margin: 20px auto;
-    }
-    
-    /* ========================================
-      Interactive Elements
-      ========================================
-    */
-    .buy-button {
-      background-color: var(--button-bg);
-      color: white;
-      padding: 15px 25px;
-      border: none;
-      font-size: 18px;
-      font-weight: bold;
-      margin: 40px auto;
-      display: block;
-      width: 220px;
-      border-radius: 5px;
-      cursor: pointer;
-      text-align: center;
-      text-decoration: none;
-      transition: background-color 0.3s ease, transform 0.2s ease;
-    }
-
-    .buy-button:hover {
-      background-color: var(--button-hover-bg);
-      transform: translateY(-2px);
-    }
-
-    .whatsapp-float {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      z-index: 1000;
-      transition: transform 0.3s ease;
-    }
-    
-    .whatsapp-float:hover {
-        transform: scale(1.1);
-    }
-
-    .whatsapp-float img {
-      width: 60px;
-      height: 60px;
-    }
-    
-    /* ========================================
-      Footer & Contact
-      ========================================
-    */
-    .contact-section {
-      background: var(--contact-bg);
-      padding: 20px;
-      text-align: center;
-    }
-    
-    .contact-section address {
-      font-style: normal;
-    }
-
-    .contact-section a {
-        color: var(--text-color);
-        text-decoration: none;
-    }
-
-    .contact-section a:hover {
-        text-decoration: underline;
-    }
-    
-    .footer {
-      background: var(--header-footer-bg);
-      text-align: center;
-      padding: 15px;
-      font-size: 14px;
-    }
-
-    /* ========================================
-      Responsive Design
-      ========================================
-    */
-    @media (max-width: 768px) {
-      .main-content {
-        padding: 15px;
-      }
-      
-      .buy-button {
-        width: 80%;
-        padding: 18px;
-      }
-    }
-  </style>
+  <meta name="description" content="AEL Virgin Coconut Oil – Cold-pressed, 100% natural, chemical-free. Pure health for oil pulling, makeup removal, baby massage, and cooking.">
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts: Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+  <link rel="icon" href="favicon.png" />
 </head>
 <body>
-
-  <header class="header">
-    <img class="header__logo" src="images/324381211_895608055220078_3042382460667777885_n.webp" alt="AEL Virgin Coconut Oil Logo">
-    <h1>AEL Virgin Coconut Oil</h1>
-    <p>Hot Processed • 100ml • 100% Pure</p>
+  <!-- ========== HEADER ========== -->
+  <header id="header">
+    <div class="container nav-flex">
+      <a href="#home" class="logo">
+        <!-- Replace src with AEL logo -->
+        <img src="logo-placeholder.png" alt="AEL Logo">
+        <span class="brand">AEL</span>
+      </a>
+      <nav class="nav" id="nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#benefits">Benefits</a>
+        <a href="#uses">Uses</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
   </header>
 
-  <div class="hero"></div>
-
-  <main class="main-content">
-
-    <section class="product-section">
-      <figure>
-        <img class="product-image" src="images/324442246_1336459020436620_1538649647227246207_n.webp" alt="A bottle of AEL Virgin Coconut Oil.">
-      </figure>
-
-      <div class="highlight-card">
-        <h2>Why Choose AEL?</h2>
-        <p>Our Virgin Coconut Oil is made using the traditional hot process method. It is chemical-free, baby-safe, and 100% pure. Perfect for skin, hair, cooking, and even oil pulling.</p>
-      </div>
-    </section>
-
-    <section>
-      <h3>Top 5 Benefits:</h3>
-      <ul class="benefits-list">
-        <li>Best baby oil for sensitive skin</li>
-        <li>Anti-aging properties</li>
-        <li>Great for oil pulling</li>
-        <li>Heals skin issues naturally</li>
-        <li>Increases good cholesterol</li>
-      </ul>
-    </section>
-    
-    <section class="highlight-card">
-        <h3>Our Process</h3>
-        <figure>
-            <img class="process-image" src="images/328723557_125738126862103_7970607440898934678_n.jpeg" alt="A depiction of the coconut oil making process.">
-        </figure>
-        <p>We start by sourcing the very best coconuts in our village (in Kerala) to produce our Virgin Coconut Oil. Our unique process then opens up the coat of this precious fruit, releasing the oil and nutrients inside.</p>
-    </section>
-    
-    <a href="https://rzp.io/l/example-payment-link" class="buy-button">Buy Now – ₹149</a>
-
-  </main>
-  
-  <section class="contact-section">
-    <h3>Contact Us</h3>
-    <address>
-      Phone: <a href="tel:+917034003431">+91-7034003431</a> / <a href="tel:+919562452792">+91-9562452792</a><br>
-      Email: <a href="mailto:aelvirgincoconutoil@gmail.com">aelvirgincoconutoil@gmail.com</a><br>
-      Instagram: <a href="https://www.instagram.com/ael_virgin_coconutoil" target="_blank">@ael_virgin_coconutoil</a>
-    </address>
+  <!-- ========== HERO SECTION ========== -->
+  <section id="home" class="hero">
+    <div class="hero-slider" id="heroSlider">
+      <div class="slide active" style="background-image: url('coconut-trees.jpg');"></div>
+      <div class="slide" style="background-image: url('ael-bottle.jpg');"></div>
+      <div class="slide" style="background-image: url('wellness-bg.jpg');"></div>
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="container hero-content">
+      <h1>Pure. Natural. Healthy.<br><span>AEL Virgin Coconut Oil</span></h1>
+      <p>For Oil Pulling &bull; Makeup Removal &bull; Baby Massage</p>
+      <a href="#contact" class="btn btn-main">Order Now</a>
+    </div>
   </section>
 
-  <a class="whatsapp-float" href="https://wa.me/919562452792" target="_blank" aria-label="Chat with us on WhatsApp">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Icon">
-  </a>
+  <!-- ========== ABOUT SECTION ========== -->
+  <section id="about" class="section about-section">
+    <div class="container about-flex">
+      <div class="about-img">
+        <img src="coconut-bottle.jpg" alt="AEL Virgin Coconut Oil Bottle">
+      </div>
+      <div class="about-text">
+        <h2>About AEL Virgin Coconut Oil</h2>
+        <p>
+          AEL Virgin Coconut Oil is cold-pressed from fresh coconuts, ensuring purity and natural goodness in every drop. 100% natural, chemical-free, and unrefined, it’s the healthy choice for your daily wellness, beauty, and cooking needs.
+        </p>
+      </div>
+    </div>
+  </section>
 
-  <footer class="footer">
-    <p>&copy; 2025 AEL Virgin Coconut Oil – Harmony with Nature</p>
+  <!-- ========== BENEFITS SECTION ========== -->
+  <section id="benefits" class="section benefits-section">
+    <div class="container">
+      <h2>Benefits</h2>
+      <div class="benefits-grid">
+        <div class="benefit-card">
+          <i class="fa-solid fa-shield-heart"></i>
+          <h3>Boosts Immunity</h3>
+          <p>Rich in lauric acid to support your body’s natural defenses.</p>
+        </div>
+        <div class="benefit-card">
+          <i class="fa-solid fa-seedling"></i>
+          <h3>Healthy Skin &amp; Hair</h3>
+          <p>Nourishes, moisturizes and revitalizes skin and hair naturally.</p>
+        </div>
+        <div class="benefit-card">
+          <i class="fa-solid fa-tooth"></i>
+          <h3>Supports Oral Health</h3>
+          <p>Excellent for oil pulling to maintain oral hygiene and freshness.</p>
+        </div>
+        <div class="benefit-card">
+          <i class="fa-solid fa-leaf"></i>
+          <h3>100% Natural &amp; Edible Grade</h3>
+          <p>Pure, cold-pressed, chemical-free, and safe for all uses.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== USES SECTION ========== -->
+  <section id="uses" class="section uses-section">
+    <div class="container">
+      <h2>Uses</h2>
+      <div class="uses-grid">
+        <div class="use-card">
+          <i class="fa-solid fa-spoon"></i>
+          <span>Oil Pulling</span>
+        </div>
+        <div class="use-card">
+          <i class="fa-solid fa-face-smile"></i>
+          <span>Makeup Remover</span>
+        </div>
+        <div class="use-card">
+          <i class="fa-solid fa-baby"></i>
+          <span>Baby Massage</span>
+        </div>
+        <div class="use-card">
+          <i class="fa-solid fa-utensils"></i>
+          <span>Cooking</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TESTIMONIALS SECTION ========== -->
+  <section id="testimonials" class="section testimonials-section">
+    <div class="container">
+      <h2>Testimonials</h2>
+      <div class="testimonials-carousel" id="testimonialsCarousel">
+        <div class="testimonial active">
+          <div class="profile"><img src="profile1.png" alt="Customer"></div>
+          <blockquote>“AEL coconut oil is pure and light. I use it for my kids and for oil pulling. Highly recommend!”</blockquote>
+          <span class="customer">– Priya Nair</span>
+        </div>
+        <div class="testimonial">
+          <div class="profile"><img src="profile2.png" alt="Customer"></div>
+          <blockquote>“Love how my skin feels after using AEL. No chemicals, just nature!”</blockquote>
+          <span class="customer">– Arun Menon</span>
+        </div>
+        <div class="testimonial">
+          <div class="profile"><img src="profile3.png" alt="Customer"></div>
+          <blockquote>“I cook with it, use it for my hair, and it works wonders. The best I've tried!”</blockquote>
+          <span class="customer">– Lakshmi S.</span>
+        </div>
+        <!-- Add more testimonials as needed -->
+        <button class="carousel-btn left" id="prevTestimonial"><i class="fa-solid fa-chevron-left"></i></button>
+        <button class="carousel-btn right" id="nextTestimonial"><i class="fa-solid fa-chevron-right"></i></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT / ORDER SECTION ========== -->
+  <section id="contact" class="section contact-section">
+    <div class="container contact-flex">
+      <form class="contact-form" autocomplete="off">
+        <h2>Order / Contact</h2>
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Email Address" required />
+        <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn btn-main">Send Message</button>
+      </form>
+      <div class="contact-info">
+        <a href="https://wa.me/919876543210" class="whatsapp-btn" target="_blank">
+          <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+        </a>
+        <div class="info-list">
+          <div><i class="fa-solid fa-phone"></i> <span>+91 98765 43210</span></div>
+          <div><i class="fa-solid fa-envelope"></i> <span>hello@aelcoconutoil.com</span></div>
+          <div><i class="fab fa-instagram"></i> <span>@ael.coconutoil</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer>
+    <div class="container footer-flex">
+      <div>© AEL Virgin Coconut Oil</div>
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="https://wa.me/919876543210"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
   </footer>
 
+  <!-- ========== FLOATING WHATSAPP BUTTON ========== -->
+  <a href="https://wa.me/919876543210" class="whatsapp-float" target="_blank" aria-label="WhatsApp Chat">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- ========== JS ========== -->
+  <script src="script.js"></script>
 </body>
 </html>
